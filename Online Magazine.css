@@ -1,0 +1,426 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+
+/* Morten added this. It works like a */
+/* wrapper for the content */
+.maincontent_container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* Mortens addition ends */
+
+
+/* NAVIGATION LAYOUT AND FORMAT STARTS */
+
+.header_container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 200px;
+    background-color: black;
+}
+
+.empty_container {
+    /* I am cheating the flexbox to thing there is */
+    /* a third item, but there is not. Its empty */
+    width: 0;
+}
+
+.navigation_container {
+    width: 400px;
+}
+
+.videoo {
+    align-self: center;
+    height: 150px;
+}
+
+.nav_element {
+    margin: 15px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+
+/* END OF NAVIGATION LAYOUT AND FORMAT */
+
+.link:hover {
+    color: #00F7FF;
+    font-family: monospace;
+}
+
+
+.logo_class {
+    height: 80px;
+    margin-left: 55px;
+}
+
+.m_class {
+    width: 100%;
+    height: 800px;
+}
+
+.link {
+    text-decoration: inherit;
+    color: #C608D1;
+    font-family: monospace;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+
+.right_element {
+    margin-right: 55px;
+}
+
+.logo_class {
+    height: 80px;
+    margin-left: 55px;
+}
+
+.background {
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.back {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+/* ------- Image banner layout and style ---------- */
+
+.banner_container {
+    overflow: hidden;
+    position: relative;
+    max-height: 640px;
+}
+
+.btn_container {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    z-index: 1;
+}
+
+.btn {
+    color: #00F7FF;
+    font-size: 14px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: monospace;
+    text-decoration: none;
+    /* morten added this */
+}
+
+
+.btn:hover {
+    background-color: #C608D1;
+}
+
+/* ------- End of image banner layout and style --------- */
+
+
+.contact_container {
+    background-color: aquamarine;
+    color: hotpink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 325px;
+
+}
+
+.some_list {
+    margin-top: 5px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.somelist_element {
+    margin: 0 0 10px 0;
+    flex-direction: column;
+}
+
+.backgr {
+    max-width: 80%;
+    background-color: black;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center; Morten made this a comment*/
+    margin: 0 auto;
+}
+
+.link2 {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #C608D1;
+}
+
+.intro_text {
+    color: #00F7FF;
+    font-size: 26px;
+    font-family: monospace;
+    padding-top: 50px;
+    /* padding-bottom: 50px; Morten made this a comment */
+}
+
+.intro_2text {
+    color: #C608D1;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.intro_container {
+    text-align: center;
+    background-color: black;
+    margin: 35px 0 35px 0;
+}
+
+.intro2_container {
+    background-color: black;
+    line-height: 150px;
+}
+
+.intro3_container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main {
+    background-color: black;
+}
+
+.text1 {
+    text-align: center;
+    font-size: 13px;
+    font-family: monospace;
+    color: #FFA9FD;
+    background-color: black;
+}
+
+.text12 {
+    text-align: center;
+    font-size: 13px;
+    font-family: monospace;
+    color: #FFA9FD;
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+
+.details_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.icon_text {
+    color: #C608D1;
+    font-size: 18px;
+    margin-top: 8px;
+    font-family: monospace;
+    text-decoration: inherit;
+
+}
+
+.icon_text:hover {
+    color: #00F7FF;
+}
+
+
+/* ------- FOOTER LAYOUT AND STYLE ------- */
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    /* Maybe space-between ? */
+    flex-wrap: wrap;
+    font-family: monospace;
+    font-size: 16px;
+    background-color: black;
+    padding-top: 100px;
+
+}
+
+.contactus_container {
+    font-family: monospace;
+    font-size: 15px;
+    color: #F0F8FF;
+    width: 300px;
+    margin-left: 45px;
+    margin-bottom: 40px;
+}
+
+.some_container {
+    font-size: 16px;
+    color: white;
+    font-family: monospace;
+    width: 175px;
+}
+
+.contactus_text {
+    font-size: 16px;
+}
+
+/* ------ THE END OF FOOTER LAYOUT -------- */
+
+.about_us1 {
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+    background-color: black;
+    /* padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 2px; Morten made this a comment */
+
+}
+
+.about_us2 {
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+    background-color: black;
+    /* padding-left: 100px;
+    padding-bottom: 10px;
+    padding-right: 100px; Morten made this a comment */
+}
+
+.festival {
+    max-width: 100%;
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; Morten made this a comment */
+    margin: 0 auto;
+
+}
+
+.intro_text4 {
+    color: #FF7600;
+    font-size: 17px;
+    font-family: monospace;
+    padding-left: 100px;
+    padding-right: 40px;
+}
+
+.intro_text5 {
+    color: #00F7FF;
+    font-size: 26px;
+    font-family: monospace;
+    padding-top: 80px;
+}
+
+.body {
+    background-color: black;
+    background-size: 100%;
+
+}
+
+.container {
+    max-width: 100%;
+}
+
+.content_container1 {
+    padding: 16px 24px 16px 24px;
+    margin: 16px;
+    width: 420px;
+    font-size: 20px;
+}
+
+.backgr {
+    max-width: 70%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.backgr1 {
+    max-width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+}
+
+/* Morten made this */
+
+@media only screen and (min-width: 550px) {
+    .btn_container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+        z-index: 1;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .header_container {
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        height: 150px;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    .maincontent_container {
+        width: 900px;
+    }
+
+}
+
+@media only screen and (min-width: 935px) {
+    .btn {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+
+    .empty_container {
+        width: 400px;
+        /* width has to be the same as navigation_container width */
+    }
+
+
+}
+
+/* @media only screen and (min-width: 470px) {
+    .footer_container {
+        flex-direction: row;
+    }
+
+    ._blank {}
+*/
